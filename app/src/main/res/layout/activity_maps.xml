@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:weightSum="2" >
+
+
+    <Button
+        android:id="@+id/showPOIloc"
+        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="50dp"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:text="Show Destination"
+        android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+    <Button
+        android:id="@+id/showCurrentLoc"
+        android:text="Show current location"
+        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@+id/showPOIloc"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+
+
+    <ImageButton
+        android:id="@+id/showImage"
+        android:src="@drawable/locationicon"
+        android:layout_width="50dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_height="50dp"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:text="Show Destination"
+        android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <fragment
+        android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    map:cameraZoom="16"
+    tools:context="uk.ac.uea.testsigh.MapsActivity"
+    android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text=""
+android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:id="@+id/distance"
+        android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        />
+
+</RelativeLayout>

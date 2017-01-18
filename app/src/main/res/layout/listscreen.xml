@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageButton
+        android:id="@+id/setListImage"
+        android:src="@drawable/backbutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:scaleType="fitStart"
+        android:onClick="restartView"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/setListTitle"
+        android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+        android:text=" "
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+    <ListView
+        android:paddingTop="50dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp">
+
+    </ListView>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"/>
+    <ImageButton
+
+        android:src="@drawable/home"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:id="@+id/button2"
+        android:layout_marginBottom="8dp"
+        android:onClick="loadHome"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:layout_width="40dp" />
+
+
+</RelativeLayout>

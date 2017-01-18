@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.ac.uea.testsigh.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/setListImage"
+        android:src="@drawable/backbutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:scaleType="fitStart"
+        android:onClick="loadWelcome"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/setListImage2"
+        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_height="40dp"
+        android:scaleType="fitStart"
+        android:text="Home"
+        android:textStyle="bold"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_alignBottom="@+id/setListImage2"
+        />
+
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp">
+
+        <Button
+            android:text="Accommodation"
+            android:textColor="@color/colorWhite"
+            android:onClick="filterAccom"
+            android:id="@+id/accommodation"
+            android:layout_weight="1"
+            android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="10dp"
+
+ />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:text="Hub"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorWhite"
+            android:layout_width="150dp"
+            android:onClick="filterHub"
+            android:layout_weight="1"
+            android:id="@+id/hub"
+            android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            android:layout_height="150dp"
+            android:paddingRight="10dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/LinearLayout02"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:text="Food and Drink"
+            android:textColor="@color/colorWhite"
+            android:layout_width="150dp"
+            android:onClick="filterFoodandDrink"
+            android:id="@+id/eating"
+            android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:layout_height="150dp" />
+
+        <Button
+            android:text="Departments"
+            android:textColor="@color/colorWhite"
+            android:layout_width="150dp"
+            android:id="@+id/acadDepart"
+            android:onClick="filterAcademic"
+            android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            android:layout_weight="1"
+            android:layout_marginRight="0dp"
+            android:layout_height="150dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"/>
+    <ImageButton
+
+        android:src="@drawable/home"
+        android:scaleType="fitStart"
+        android:background="@null"
+        android:adjustViewBounds="true"
+        android:id="@+id/button2"
+        android:onClick="loadHome"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:layout_width="40dp" />
+
+</RelativeLayout>
+
+

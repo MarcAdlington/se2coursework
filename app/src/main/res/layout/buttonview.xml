@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/setListImage2"
+        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_height="40dp"
+        android:scaleType="fitStart"
+        android:text="Confirmation"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_alignBottom="@+id/setListImage2"
+        android:layout_alignParentEnd="true"
+   />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"/>
+    <ImageButton
+
+        android:src="@drawable/home"
+        android:scaleType="fitStart"
+        android:background="@null"
+        android:adjustViewBounds="true"
+        android:id="@+id/button2"
+        android:onClick="loadHome"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:layout_width="40dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/uea"
+        android:layout_height="50dp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/setListImage2"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="61dp"
+
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:text="Yes"
+            android:textColor="@color/colorWhite"
+            android:layout_width="150dp"
+            android:id="@+id/btnTrackLocation"
+            android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:layout_height="150dp" />
+
+        <Button
+            android:text="No"
+            android:textColor="@color/colorWhite"
+            android:layout_width="150dp"
+            android:id="@+id/btnGoBack"
+            android:onClick="goBack"
+            android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            android:layout_weight="1"
+            android:layout_marginRight="0dp"
+            android:layout_height="150dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="Is this correct?"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/txtCorrectOrIncorrect"
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="You have selected:"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/txtLabel"
+        android:layout_alignBottom="@+id/txtCoordinates"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp" />
+
+    <TextView
+        android:text=""
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/txtCoordinates"
+        android:layout_above="@+id/txtCorrectOrIncorrect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" />
+
+    <ImageButton
+        android:id="@+id/setListImage"
+        android:src="@drawable/backbutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:scaleType="fitStart"
+        android:onClick="loadHome"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

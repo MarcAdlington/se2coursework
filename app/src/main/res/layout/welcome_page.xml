@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/copyRightTextView"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/setListImage4"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/setListImage2"
+        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_height="40dp"
+        android:scaleType="fitStart"
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:adjustViewBounds="true"
+        android:background="@color/title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/setListImage4"
+        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_height="60dp"
+        android:scaleType="fitStart"
+        android:onClick="loadHome"
+        android:text="Begin"
+        android:adjustViewBounds="true"
+        android:background="@color/title"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        android:src="@drawable/ueawelcome"
+        android:id="@+id/imageView1"
+        android:paddingBottom="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        </ImageView>
+
+    <Button
+        android:id="@+id/setListImage"
+        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_height="60dp"
+        android:scaleType="fitStart"
+        android:onClick="loadHome"
+        android:text="to the UEA location finder"
+        android:adjustViewBounds="true"
+        android:background="@color/title"
+        android:layout_below="@+id/setListImage2"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
