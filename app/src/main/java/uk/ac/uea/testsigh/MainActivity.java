@@ -203,7 +203,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void startMaps() {
         Intent intent = new Intent(this, MapsActivity.class);
-
         intent.putExtra("lat", lat);
         intent.putExtra("long", longg);
         intent.putExtra("name", name);
