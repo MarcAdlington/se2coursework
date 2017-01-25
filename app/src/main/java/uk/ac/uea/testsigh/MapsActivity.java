@@ -52,12 +52,6 @@ public class MapsActivity extends FragmentActivity
     private static int DISPLACEMENT = 10;
 
 
-    LatLng latLng;
-    GoogleMap mGoogleMap;
-    SupportMapFragment mFragment;
-    Marker currLocationMarker;
-
-
     public float lat1;
     public float long1;
     public String name;
