@@ -3,7 +3,7 @@ package uk.ac.uea.testsigh;
 import uk.ac.uea.framework.FrameworkCopyright;
 
 /**
- * Created by mradl on 18/01/2017.
+ * Created by Marc Adlington 100088190 on 14/12/2016.
  */
 
 public class Copyright extends FrameworkCopyright {

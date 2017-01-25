@@ -1,11 +1,10 @@
-academic_dept,Zuckerman Institute for Connective Environmental Research,52.62170696,1.23765707,ZICER,SCI,"The Zuckerman Institute for Connective Environmental Research (ZICER) is home to international research centres, the Tyndall Centre for Climate Change, CSERGE and the Centre for Environmental Risk. The ZICER building itself is also a innovation in environmental friendly architecture."
 academic_dept,British Centre for Literary Translation,52.62218,1.24074,N/A,HUM,The British Centre for Literary Translation
 academic_dept,Centre for East Anglian Studies,52.62231,1.24077,N/A,HUM,The British Centre for Literary Translation
 academic_dept,Climatic Research Unit,52.621784,1.238556,CRU,N/A,"The Climatic Research Unit, part of the School of Environmental Sciences, is widely recognised as one of the world's leading institutions concerned with the study of natural and anthropogenic climate change."
 academic_dept,INTO University of East Anglia,52.623531,1.24535,INTO,N/A,"INTO University of East Anglia is a state of the art, purpose built Centre, which prepares international students for entry onto degree courses at the University. The Centre comprises modern teaching and accomodation facilities over five stories."
 academic_dept,James Platt Language Centre,52.62186,1.24027,N/A,HUM,The James Platt language centre.
 academic_dept,John Innes Centre,52.621315,1.222208,N/A,N/A,The John innes centre
-academic_dept,Norwich Business School,52.62204,1.2362,NBS,SSF,"Norwich Business School embraces the University's motto of ‘Do Different' by delivering innovative and pioneering courses at facilities in both Norwich and London. Our excellent teaching department is underpinned by cutting edge research, which ensures we're highly relevant to business needs now and in the future."
+academic_dept,Norwich Business School,52.62204,1.2362,NBS,SSF,"Norwich Business School embraces the Universitys motto of Do Different by delivering innovative and pioneering courses at facilities in both Norwich and London. Our excellent teaching department is underpinned by cutting edge research, which ensures we're highly relevant to business needs now and in the future."
 academic_dept,Norwich Medical School,52.62188445,1.234918535,MED,FMH,The Norwich Medical School is a leader in preparing students to become highly competent and confident doctors. We are proud of our reputation as one of the very best schools of medicine in the country. We want you to be the best too – by learning and developing first class clinical skills and nurturing excellence in scientific understanding.
 academic_dept,Norwich Research Park,52.624611,1.224031,NRP,N/A,The  Norwich Research Park
 academic_dept,"Art, Media and American Studies",52.62205,1.24054,AMA,HUM,"The School of Art, Media and American Studies brings together world-leading expertise in the visual arts, in film, television and media studies and in the literature, history, and culture of the United States, and the Atlantic and Pacific worlds."
@@ -82,24 +81,26 @@ accommodation,Village Close (Block G) 2-4,52.62880741,1.237238646,116,N/A,Our Tw
 accommodation,Village Courtyard A,52.62799989,1.237265468,120,N/A,N/A
 accommodation,Village Courtyard B,52.62845901,1.237555146,119,N/A,N/A
 accommodation,Yew - University Village,52.62865763,1.23701334,117,N/A,N/A
-accommodation,Victory House,52.622639,1.24638,129,N/A,"<a href='https://www.uea.ac.uk/accommodation/student+residences/campusensuite'><strong>Britten, Browne, Colman, Kett, Paston </strong>and<strong> Victory</strong></a> all provide light, en-suite rooms grouped in 8 or 12-person flats, with a central wide corridor and a purpose-built kitchen/diner."
-accommodation,Wolfson Close,52.621647,1.247152,102,N/A,"100 standard rooms are available in <a href='http://www.ueaaccommodation.com/mediaimages/gallery/standard/orwellwolfson/orwellwolfson.html.'>Orwell Close</a> and <a href='http://www.ueaaccommodation.com/mediaimages/gallery/standard/orwellwolfson/orwellwolfson.html'>Wolfson Close</a>. The rooms are arranged in flats of between 5 and 12 rooms, and the size of the kitchen/diner reflects the number of people sharing. Please note these rooms do not have washbasins."
+accommodation,Victory House,52.622639,1.24638,129,N/A,"Britten, Browne, Colman, Kett, Paston and Victory all provide light, en-suite rooms grouped in 8 or 12-person flats, with a central wide corridor and a purpose-built kitchen/diner."
+accommodation,Wolfson Close,52.621647,1.247152,102,N/A,100 standard rooms available with shared facilities.
 accommodation,Crome Court,52.62216,1.246562,133,N/A,"Crome Court is UEA’s newest and most energy efficient accommodation block, and the one with the strongest environmental credentials."
 accommodation,Barton House,52.624341,1.246873,N/A,N/A,Barton House
 accommodation,Hickling House,52.624712,1.24653,N/A,N/A,Hickling House
-bandb,BroadView Lodge,52.621373,1.243357,N/A,N/A,"<a href='http://www.broadviewlodge.co.uk/index.htm'>Broadview Lodge</a> is Bed and Breakfast accommodation on campus. Broadview Lodge has sixty en-suite rooms, which are available all year round, ideal for a small conference, training day or indeed for leisure guests. Rooms are equipped with TV, tea and coffee making facilities, Wi-Fi internet access, alarm clock, hair dryer and an iron and ironing board."
+bandb,BroadView Lodge,52.621373,1.243357,N/A,N/A,"Broadview Lodge is Bed and Breakfast accommodation on campus. Broadview Lodge has sixty en-suite rooms, which are available all year round, ideal for a small conference, training day or indeed for leisure guests. Rooms are equipped with TV, tea and coffee making facilities, Wi-Fi internet access, alarm clock, hair dryer and an iron and ironing board."
 ,,,,,,
+building,BioMass Energy centre,52.625375,1.239803,N/A,N/A,The biomass energy centre
 building,Bio-Medical Research Centre (BMRC),52.62106866,1.236739755,N/A,N/A, The Bio-Medical Research Centre (BMRC)
-building,The TEC,52.62364948,1.244850755,N/A,N/A,"Located at the gateway to the campus, and managed by the Adapt Low Carbon Group, this ground-breaking building is the region's huib for entrepreneurs, innovators and businesses that are committed to building a low carbon future."
 building,Blackdale Building,52.62432031,1.245577633,BDS,N/A,Blackdale Building
+building,Bob Champion Research and Education Building,52.619682,1.218946,N/A,N/A,Bob Champion Research and Education Building
 building,Earlham Hall,52.625499,1.236646,N/A,N/A,Earlham Hall
 building,Edith Cavell Building,52.61972,1.22333,N/A,N/A,Edith Cavell Building
-building,Lawrence Stenhouse Building,52.62143503,1.237353981,N/A,N/A,Lawrence Stenhouse Building
 building,Elizbeth Fry Building,52.621571,1.235393,N/A,N/A,Elizbeth Fry Building
+building,Estates Building,52.62215148,1.238343716,N/A,N/A,Estates Building
 building,Hubert Lamb Building,52.62184374,1.238560975,N/A,N/A,Hubert Lamb Building
 building,ITCS Building,52.621319,1.239371,N/A,N/A,ITCS Building
-building,Estates Building,52.62215148,1.238343716,N/A,N/A,Estates Building
+building,Lawrence Stenhouse Building,52.62143503,1.237353981,N/A,N/A,Lawrence Stenhouse Building
 building,Medical Building,52.62187956,1.234615445,N/A,N/A,Medical Building
+building,Music Building,52.62090746,1.242259741,N/A,N/A,Music Building
 building,Queen's Building,52.62120218,1.236128211,N/A,N/A,Queen's Building
 building,Registry Building,52.622505,1.241659,N/A,N/A,Registry Building
 building,Teaching Wall: Arts 1,52.62180303,1.240253448,N/A,N/A,Teaching Wall: Arts 1
@@ -107,11 +108,9 @@ building,Teaching Wall: Arts 2,52.622112,1.240677,N/A,N/A,Teaching Wall: Arts 2
 building,Teaching Wall: Biology,52.62068112,1.236501038,N/A,N/A,Teaching Wall: Biology
 building,Teaching Wall: Chemisty (CAP),52.62155064,1.239317358,N/A,N/A,Teaching Wall: Chemisty (CAP)
 building,Teaching Wall: Sciences,52.62144643,1.238292754,N/A,N/A,Teaching Wall: Sciences
+building,The TEC,52.62364948,1.244850755,N/A,N/A,"Located at the gateway to the campus, and managed by the Adapt Low Carbon Group, this ground-breaking building is the region's huib for entrepreneurs, innovators and businesses that are committed to building a low carbon future."
 building,Thomas Paine Study Centre,52.62195121,1.236197948,N/A,N/A,Thomas Paine Study Centre
 building,ZICER Building,52.62173464,1.238051355,N/A,N/A,ZICER Building
-building,Music Building,52.62090746,1.242259741,N/A,N/A,Music Building
-building,Bob Champion Research and Education Building,52.619682,1.218946,N/A,N/A,Bob Champion Research and Education Building
-building,BioMass Energy centre,52.625375,1.239803,N/A,N/A,The biomass energy centre
 campus_fac,Music Centre,52.62090746,1.242259741,N/A,N/A,
 bus_stop,"Bluebell Road, adj University Entrance",52.6225553,1.247591972,nfodjtjd,N/A,Buses from city centre drop off here
 bus_stop,"Bluebell Road, opp University Entrance",52.62222639,1.247833371,nfodjtjg,N/A,"For buses 25, 25A and X25 to Norwich City centre and Rail Station"
@@ -130,16 +129,16 @@ bus_stop,"Bluebell Road, opp North Park Avenue",52.6203929,1.246824861,nfodjtgw,
 bus_stop,"Earlham Road, opp Earlham Park Gates",52.62821,1.24083,N/A,N/A,"For buses: 4,3 to Norwich City centre (bus station)"
 ,,,,,,
 cafe,Bio Cafe,52.62095956,1.236450076,N/A,N/A,Bio Cafe is home to the great taste of Grumpy Mule coffee and offers two different blends for you to choose from. Hot food is available as well as a great range of sandwiches & snacks.
-cafe,Ziggy's,52.62109634,1.241573095,N/A,N/A,Ziggy's Espresso & Sandwich Bar uses a local East Anglian coffee roaster to bring you our very own specially selected exclusive blends of coffee
 cafe,Blend,52.62157,1.24073,N/A,N/A,"On the move or pressed for time? Blend offers great snacks, snadwiches and light hot meals in a grab and go style."
-cafe,Vista,52.62165,1.24073,N/A,N/A,"Vista is an oasis of tranquility for staff and post graduates alike. Serving superb barista coffee, delicious lunches and tasty afternoon snacks."
-cafe,Zest,52.621483,1.24073,N/A,N/A,"From breakfast to dinner and everything in between, Zest is the ultimate place to be offering great quality, freshly cooked, responsibly sourced dishes to suit every palette at any time of day"
-cafe,Sports Park Cafe,52.62424867,1.241428256,N/A,N/A,Sportscafe - serving a wide variety of hot and cold snacks all day. From the famous SP 'All Day' Breakfast to our very own freshly made Soup of the Day. We also have the 'Proud to Serve' Costa brand which you can either drink in or takeaway
+cafe,Costa @ Cafe 57,52.622103,1.234125,N/A,N/A,"Enjoy Costa Coffee, fruit coolers and many more delicious Costa favouties. Compliment your drink with homemade cakes, a fantastic range of sandwiches and snacks incldung hot options at lunchtime."
+cafe,East End Cafe,52.62005095,1.235087514,N/A,N/A,The East End Cafe can be found near to the gift shop
 cafe,INTO Cafe,52.62333686,1.245580316,N/A,N/A,Located within the INTO accommodation
 cafe,Modern Life Cafe,52.62064692,1.234030724,N/A,N/A,The Modern Life Cafe & Bar can be found within the beautiful glass fronted part of the museum
-cafe,East End Cafe,52.62005095,1.235087514,N/A,N/A,The East End Cafe can be found near to the gift shop
+cafe,Sports Park Cafe,52.62424867,1.241428256,N/A,N/A,Sportscafe - serving a wide variety of hot and cold snacks all day. From the famous SP 'All Day' Breakfast to our very own freshly made Soup of the Day. We also have the 'Proud to Serve' Costa brand which you can either drink in or takeaway
 cafe,Tonic,52.61957546,1.223065853,N/A,N/A,"Located in the Edith Cavell building, Tonic offers fresh, homemade sandwiches, scones and cakes with an array of coffees, teas and soft drinks."
-cafe,Costa @ Cafe 57,52.622103,1.234125,N/A,N/A,"Enjoy Costa Coffee, fruit coolers and many more delicious Costa favouties. Compliment your drink with homemade cakes, a fantastic range of sandwiches and snacks incldung hot options at lunchtime."
+cafe,Vista,52.62165,1.24073,N/A,N/A,"Vista is an oasis of tranquility for staff and post graduates alike. Serving superb barista coffee, delicious lunches and tasty afternoon snacks."
+cafe,Zest,52.621483,1.24073,N/A,N/A,"From breakfast to dinner and everything in between, Zest is the ultimate place to be offering great quality, freshly cooked, responsibly sourced dishes to suit every palette at any time of day"
+cafe,Ziggy's,52.62109634,1.241573095,N/A,N/A,Ziggy's Espresso & Sandwich Bar uses a local East Anglian coffee roaster to bring you our very own specially selected exclusive blends of coffee
 campus_fac,Astro Turf Pitches,52.626198,1.241605,N/A,N/A,N/A
 campus_fac,CareerCentral,52.621298,1.241192,N/A,N/A,"The Careers Service provides information, advice and guidance services for all UEA students and graduates, helping them into employment and further study."
 campus_fac,Chancellors Drive Annexes,52.62189096,1.23332262,N/A,N/A,N/A

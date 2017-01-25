@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by mradl on 14/12/2016.
+ * Created by Marc Adlington 100088190 on 14/12/2016.
  */
 
 
@@ -99,6 +99,7 @@ public class ItemArrayAdapter extends ArrayAdapter<String[]>{
 
           //  if (stat[0].equalsIgnoreCase(filterList)) {
                 amount++;
+                stat[6].replaceAll("\\<.*?\\>''", ""); // removes special characters
                 viewHolder.name.setText(stat[1]);//name
                 viewHolder.desc.setText(stat[6]);//description
 

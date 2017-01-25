@@ -36,6 +36,10 @@ import java.util.List;
 
 import uk.ac.uea.framework.DataParser;
 
+/**
+ * Created by Marc Adlington 100088190 on 14/12/2016.
+ */
+
 public class MapsActivitytwo extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
